@@ -38,7 +38,7 @@
   - Iterate over the original array, for each iteam, find the value of that in counting array, push to new array.
 
 | Factors | Bubble sort | Selection sort | Insertion sort | Merge sort | Heap sort | Quick sort | Counting sort | 
-| :---    | :---        | :---           | :---           | :---       | :---      | :---       |
+| :---    | :---        | :---           | :---           | :---       | :---      | :---       | | :---  |
 | Comperision sort?   | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Stable?   | ? | ? | ? | ? | ? | ? | ? |
 | Recursive?   | No | No | No | Yes | No | Yes | No |
