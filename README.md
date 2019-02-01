@@ -43,4 +43,4 @@
 | Stable?   | ? | ? | ? | ? | ? | ? | ? |
 | Recursive?   | No | No | No | Yes | No | Yes | No |
 | Time complexity?   | O(n^2) | O(n^2) | O(n^2) | O(nlog(n)) | O(nlog(n)) | O(nlog(n)) | O(n +k) |
-| Inplace?   | Yes | Yes | Yes | No | Yes | No  Yes |
+| Inplace?   | Yes | Yes | Yes | No | Yes | No | Yes |
