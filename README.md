@@ -39,7 +39,7 @@
 
 | Factors | Bubble sort | Selection sort | Insertion sort | Merge sort | Heap sort | Quick sort | Counting sort | 
 | :---    | :---        | :---           | :---           | :---       | :---      | :---       | :---        |
-| Comperision sort?   | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Comperision sort?   | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Stable?   | ? | ? | ? | ? | ? | ? | ? |
 | Recursive?   | No | No | No | Yes | No | Yes | No |
 | Time complexity?   | O(n^2) | O(n^2) | O(n^2) | O(nlog(n)) | O(nlog(n)) | O(nlog(n)) | O(n +k) |
