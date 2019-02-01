@@ -33,11 +33,14 @@
 - Work best in case of the range of the integers are not too wide, which means not much bigger than range k.
 - Steps:
   - Create counting array, length of k.
+  - Couting appearance of each item.
   - Add 2 consecutive items in counting array.
-  - Shift items of counting array to the right, by 1 index.
   - Iterate over the original array, for each iteam, find the value of that in counting array, push to new array.
 
-| Factors | Bubble sort | Selection sort | Insertion sort | Merge sort | Heap sort | Quick sort | 
+| Factors | Bubble sort | Selection sort | Insertion sort | Merge sort | Heap sort | Quick sort | Counting sort | 
 | :---    | :---        | :---           | :---           | :---       | :---      | :---       |
-| Comperision sort ?   | :---        | :---           | :---           | :---       | :---      | :---       |
-| Stable?   | :---        | :---           | :---           | :---       | :---      | :---       |
+| Comperision sort?   | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Stable?   | ? | ? | ? | ? | ? | ? | ? |
+| Recursive?   | No | No | No | Yes | No | Yes | No |
+| Time complexity?   | O(n^2) | O(n^2) | O(n^2) | O(nlog(n)) | O(nlog(n)) | O(nlog(n)) | O(n +k) |
+| Inplace?   | Yes | Yes | Yes | No | Yes | No  Yes |
