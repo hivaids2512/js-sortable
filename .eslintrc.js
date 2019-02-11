@@ -1,1 +1,8 @@
-module.exports = { "extends": "airbnb-base" };
+module.exports = { 
+  "extends": "airbnb-base",
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "mocha": true
+  },
+};
